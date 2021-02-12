@@ -32,8 +32,8 @@ The clean homepage would look like this (referring to your css class naming conv
 
 
 import HeroHome from '@/components/global/hero/hero-home.vue'
-import SectionMainRow from '@/components/pages/homePage/section-main-row.vue'
-import SectionMainRow2 from '@/components/pages/homePage/section-main-row-2.vue'
+import SectionMainRow from '@/components/pages/homePage/section-main-row.vue' //is now a clean vue file with few lines of html and css
+import SectionMainRow2 from '@/components/pages/homePage/section-main-row-2.vue' //is now a clean vue file with few lines of html and css
 //etc...the same for all sections
 
 export default {
