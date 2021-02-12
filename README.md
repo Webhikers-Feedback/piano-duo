@@ -10,21 +10,21 @@ The clean homepage would look like this (referring to your css class naming conv
 ```vue
 <template>
 
-<div class="wrapper">
+  <div class="wrapper">
 
-  <Header/>
-  <HeroHome/>
-  <SectionMainRow>
-  <SectionMainRow2>
-  <SectionMainRow>
-  <SectionMainRow2>
-  <SectionTextBoxNews>
-  <SectionNewsRow>
-  <SectionTextBoxNews2>
-  <SectionHauptabox>
-  <Footer/>
-  
-</div>
+    <Header/>
+    <HeroHome/>
+    <SectionMainRow>
+    <SectionMainRow2>
+    <SectionMainRow>
+    <SectionMainRow2>
+    <SectionTextBoxNews>
+    <SectionNewsRow>
+    <SectionTextBoxNews2>
+    <SectionHauptabox>
+    <Footer/>
+
+  </div>
 
 </template>
 
