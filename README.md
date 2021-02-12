@@ -1,6 +1,6 @@
 # piano-duo
 
-1. Please create a folder in `@/components/global/hero` and inside create a file called `hero-default.vue` and `hero-home.vue`. This should be a replacement for all hero sections on the pages. They share the exact same html code on every page, so please put it there. From the pages, import the correct component (`hero-home.vue` for homepage and `hero-default.vue` for all other pages) and just send the `h1 title` and the `span subtitle` from the page, when you import the component.
+1. Please create a folder in `@/components/global/hero` and inside create a file called `hero-default.vue` and `hero-home.vue`. This should be a replacement for all hero sections on all pages. They share the exact same html code on every page, so please put it there. From the pages, import the correct component (`hero-home.vue` for homepage and `hero-default.vue` for all other pages) and just send the `h1 title` and the `span subtitle` from the page, when you import the component.
 
 2. I didn't mean to split hero section and the rest of the page into 2 sections for each page. I meant to split actual sections into sections. When you write a new html `row`, it makes sense to create a new section component for each row. This improves maintainability and makes code easier to read and faster to understand.
 
