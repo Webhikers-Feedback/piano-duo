@@ -5,7 +5,7 @@
 2. I didn't mean to split hero section and the rest of the page into 2 sections for each page. I meant to split actual sections into sections. When you write a new html `row`, it makes sense to create a new section component for each row. This improves maintainability and makes code easier to read and faster to understand.
 
 A maintainable and healthy `.vue` file should't have much more than 100 lines of code.
-The clean homepage would look like this (referring to you css class naming convention for your rows):
+The clean homepage would look like this (referring to your css class naming convention for your rows):
 
 ```vue
 <template>
